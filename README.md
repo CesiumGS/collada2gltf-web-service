@@ -4,7 +4,7 @@
 <a href="https://www.khronos.org/gltf"><img src="doc/gltf.png" /></a>
 </p>
 
-Simple web service to convert 3D models from COLLADA to glTF using COLLADA2GLTF.
+Simple web service to convert 3D models from COLLADA to glTF using [COLLADA2GLTF](https://github.com/KhronosGroup/glTF).
 
 ## Overview
 
@@ -51,6 +51,10 @@ Install [mocha](http://mochajs.org/) and run the tests:
 npm install mocha -g
 npm test
 ```
+
+## COLLADA2GLTF builds
+
+Build are in the [collada2gltf](collada2gltf) directory.  They are currently version 0.8 from [here](https://github.com/KhronosGroup/glTF/wiki/Converter-builds).
 
 ## Resources
 
