@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "ignore": [
+    ".git",
+    "doc",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "watch": [
+    "**/*.js",
+    "config.json"
+  ]
+}

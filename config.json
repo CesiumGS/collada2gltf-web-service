@@ -1,0 +1,6 @@
+{
+    "host" : "localhost",
+    "port" : 3000,
+    "verbose" : true,
+    "uploadLimit" : "10mb"
+}
