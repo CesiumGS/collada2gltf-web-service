@@ -8,7 +8,7 @@ Simple web service to convert 3D models from COLLADA to glTF using COLLADA2GLTF.
 
 ## Overview
 
-This is a code sample that can serve as a starting point for a Node.js web service that converts COLLADA models to
+This is a code sample that is a starting point for a Node.js web service that converts COLLADA models to
 glTF.  This version just converts a .dae file to a .gltf with embedded geometry, animations, skins, and shaders.  It does not handle textures.
 
 ## Install
@@ -46,7 +46,7 @@ npm install jshint -g
 npm run jshint
 ```
 
-Run the tests using [mocha](http://mochajs.org/):
+Install [mocha](http://mochajs.org/) and run the tests:
 ```
 npm install mocha -g
 npm test
