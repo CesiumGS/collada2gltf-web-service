@@ -15,14 +15,14 @@ glTF.  This version just converts a .dae file to a .gltf with embedded geometry,
 
 ## Install
 
-Install [Node.js](http://nodejs.org/), then run:
+Clone this repo.  Install [Node.js](http://nodejs.org/).  From this repo's root directory, run:
 ```
-npm install collada2gltf-web-service
+npm install
 ```
 
 ## Usage
 
-Start server using [nodemon](http://nodemon.io/) so it is automatically restarted when the code changes:
+Start the server:
 ```
 npm start
 ```
@@ -34,16 +34,24 @@ curl -X POST -H "Content-Type:text/plain" -d @test/data/box.dae localhost:3000/c
 
 A few settings can be changed by modifying [config.json](config.json).  This is loaded using [nconf](https://www.npmjs.com/package/nconf) so environment variables and command-line arguments can override this.
 
-## Tests and JSHint
+## Development and Testing
 
-Run the tests:
+To automatically restart the server during development, install and run [nodemon](http://nodemon.io/):
 ```
+npm install nodemon -g
+nodemon server.js
+```
+
+Install and run [JSHint](http://jshint.com/):
+```
+npm install jshint -g
+npm run jshint
+```
+
+Run the tests using [mocha](http://mochajs.org/):
+```
+npm install mocha -g
 npm test
-```
-
-Run JSHint:
-```
-npm jshint
 ```
 
 ## Resources

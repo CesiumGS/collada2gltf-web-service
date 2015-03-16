@@ -3,6 +3,7 @@
   "ignore": [
     ".git",
     "doc",
+    "working",
     "README.md",
     "LICENSE.md"
   ],
