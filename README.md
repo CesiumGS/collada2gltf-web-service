@@ -6,8 +6,6 @@
 
 Simple web service to convert 3D models from COLLADA to glTF using COLLADA2GLTF.
 
-[![Build Status](https://travis-ci.org/AnalyticalGraphicsInc/collada2gltf-web-service.svg?branch=master)](https://travis-ci.org/AnalyticalGraphicsInc/collada2gltf-web-service)
-
 ## Overview
 
 This is a code sample that can serve as a starting point for a Node.js web service that converts COLLADA models to
