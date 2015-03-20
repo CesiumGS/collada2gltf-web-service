@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var compression = require('compression');
 var routes = require('./routes');
 var nconf = require('./lib/nconf');
 var Verbose = require('./lib/Verbose');
@@ -11,6 +12,9 @@ var app = express();
 app.use(bodyParser.text({
 	limit : nconf.get('uploadLimit')
 }));
+
+// compress
+app.use(compression());
 
 // Custom middleware fore enabling CORS.  From http://enable-cors.org/server_expressjs.html
 app.use(function(req, res, next) {
